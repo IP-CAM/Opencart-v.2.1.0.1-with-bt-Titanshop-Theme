@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items_setting>
+  <groups>
+    <title>General</title>
+    <item>
+      <text>Background body</text>
+      <name>g_body_background</name>
+      <class>body</class>
+      <value>f6f6f6</value>
+      <style>background-color</style>
+    </item>
+    <item>
+      <text>Background slider</text>
+      <name>g_slider_background</name>
+      <class>.boss-new-position</class>
+      <value>ffffff</value>
+      <style>background-color</style>
+    </item>
+    <item>
+      <text>Text Color 1</text>
+      <name>g_color_text_normal</name>
+      <class>body, a, .product-filter .sort select, .product-filter .limit select, .box .box-content .boss-alphabet a, .form-control, .register tr td.input, .submenu-inside &amp;gt; dl &amp;gt; dt &amp;gt; a</class>
+      <value>666666</value>
+      <style>color</style>
+    </item>
+    <item>
+      <text>Text Color 2</text>
+      <name>g_color_text_hover</name>
+      <class>a:hover, a:focus,.box-content a.list-group-item.active, .box-content a.list-group-item:hover, .remain-time .number.date, .mega-menu &amp;gt; ul.nav &amp;gt; li .dropdown .menu-row a.parent, .box .box-content .box-category .nav_sub_submenu &amp;gt; ul &amp;gt; li.nav_cat_parent &amp;gt; a, .dropdown-menu li &amp;gt; a:hover, #currency .currency-select:hover, #currency .currency-select:focus, .name a:hover, .box-content a.list-group-item:hover, a#compare-total, div.jGrowl div.jGrowl-notification div.jGrowl-message h3 a, #cart .minicart_total tr td.text-right, .cart-total td.right, #collapse-checkout-confirm tfoot td, .post-by span, .comment-by span, ul.box-category > li > a.active, .btn-info:hover</class>
+      <value>d9001f</value>
+      <style>color</style>
+    </item>
+  </groups>
+  <groups>
+    <title>Button</title>
+    <item>
+      <text>Background button 1</text>
+      <name>b_color_1</name>
+      <class>.btn, .btn-cart, .boss_cover, .footer_column .footer-social ul li a:hover </class>
+      <value>d9001f</value>
+      <style>background-color</style>
+    </item>
+    <item>
+      <text>Background button 2</text>
+      <name>b_color_2</name>
+      <class>.btn-shopping, .btn-compare:hover, .btn-wishlist:hover, .bt-box .box-content .boss-alphabet ul li a:hover, .product-info .btn-upload</class>
+      <value>3ba522</value>
+      <style>background-color</style>
+    </item>
+    <item>
+      <text>Background button checkout</text>
+      <name>b_color_3</name>
+      <class>.btn-checkout</class>
+      <value>ff8400</value>
+      <style>background-color</style>
+    </item>
+    <item>
+      <text>Border button compare/wishlist</text>
+      <name>b_color_4</name>
+      <class>.btn-compare:hover, .btn-wishlist:hover, .bt-box .box-content .boss-alphabet ul li a:hover</class>
+      <value>3ba522</value>
+      <style>border-color</style>
+    </item>
+  </groups>
+  <groups>
+    <title>Header</title>
+    <item>
+      <text>Header background</text>
+      <name>h_color_background</name>
+      <class>header, #top</class>
+      <value>ffffff</value>
+      <style>background-color</style>
+    </item>
+    <item>
+      <text>Text Link</text>
+      <name>h_color_text_link</name>
+      <class>#top-links ul li a, #top-links ul li span, #language span, #currency span, .dropdown-menu &amp;gt; li &amp;gt; a</class>
+      <value>666666</value>
+      <style>color</style>
+    </item>
+    <item>
+      <text>Text Link Hover</text>
+      <name>h_color_link_hover</name>
+      <class>#top-links ul li a:hover, #top-links ul li a:hover span</class>
+      <value>d9001f</value>
+      <style>color</style>
+    </item>
+  </groups>
+  <groups>
+    <title>Footer</title>
+    <item>
+      <text>Footer background</text>
+      <name>f_color_background</name>
+      <class>#bt_footer, .bt-carousel, .bt-newletter</class>
+      <value>1b1b1b</value>
+      <style>background-color</style>
+    </item>
+    <item>
+      <text>Text Title</text>
+      <name>f_color_text_title</name>
+      <class>footer h3, .footer-newletter h3</class>
+      <value>ffffff</value>
+      <style>color</style>
+    </item>
+    <item>
+      <text>Text Link</text>
+      <name>f_color_text_link</name>
+      <class>footer a, .footer_column .footer-social ul li a i, .about-store p</class>
+      <value>666666</value>
+      <style>color</style>
+    </item>
+    <item>
+      <text>Text Link Hover</text>
+      <name>f_color_link_hover</name>
+      <class>footer a:hover, .footer-about span</class>
+      <value>d9001f</value>
+      <style>color</style>
+    </item>
+  </groups>
+  <groups>
+    <title>Box heading</title>
+    <item>
+      <text>Title Box Background</text>
+      <name>b_color_background</name>
+      <class>.bt-box .box-heading, .bt-featured h3, .boss_header, .header_category .box .boss_heading</class>
+      <value>d9001f</value>
+      <style>background-color</style>
+    </item>
+    <item>
+      <text>Text Title</text>
+      <name>b_color_text_title</name>
+      <class>.bt-box .box-heading, .bt-featured h3, .header_category .box .box-heading</class>
+      <value>ffffff</value>
+      <style>color</style>
+    </item>
+    <item>
+      <text>Border Title Account/Checkout</text>
+      <name>b_color_border_ac</name>
+      <class>.checkout .panel-default &amp;gt; .panel-heading, h2.title_border</class>
+      <value>d9001f</value>
+      <style>border-color</style>
+    </item>
+    <item>
+      <text>Text Title Account/Checkout</text>
+      <name>b_color_text_ac</name>
+      <class>.checkout .panel-default &amp;gt; .panel-heading h4, .checkout .panel-default &amp;gt; .panel-heading h4 a, h2.title_border</class>
+      <value>d9001f</value>
+      <style>color</style>
+    </item>
+  </groups>
+  <groups>
+    <title>Title Tabs</title>
+    <item>
+      <text>Title Tab Border</text>
+      <name>tab_color_border</name>
+      <class>.bt-featured-pro.bt-nprolarge-tabs .htabs a.selected:before, .bt-featured-pro.bt-nprolarge-tabs .htabs a:hover:before, .htabs ul li:hover &amp;gt; a:before, .htabs .nav-tabs li.active &amp;gt; a:before</class>
+      <value>3ba522</value>
+      <style>background-color</style>
+    </item>
+    <item>
+      <text>Text Title Normal</text>
+      <name>tab_color_text_normal</name>
+      <class>.bt-featured-pro.bt-nprolarge-tabs .htabs a, .bt-featured-pro .title span</class>
+      <value>000000</value>
+      <style>color</style>
+    </item>
+    <item>
+      <text>Text Title Select</text>
+      <name>tab_color_text_hover</name>
+      <class>.bt-featured-pro.bt-nprolarge-tabs .htabs a:hover, .bt-featured-pro.bt-nprolarge-tabs .htabs a.selected, .htabs .nav-tabs li.active &amp;gt; a, .htabs li:hover a</class>
+      <value>3ba522</value>
+      <style>color</style>
+    </item>
+  </groups>
+  
+  <groups>
+    <title>Menu</title>
+    <item>
+      <text>Border Hover</text>
+      <name>m_color_border</name>
+      <class>.mega-menu &amp;gt; ul.nav &amp;gt; li:hover &amp;gt; a, .bt_pagination .links .pagination span, .bt_pagination .links .pagination a:hover</class>
+      <value>3ba522</value>
+      <style>border-color</style>
+    </item>
+    <item>
+      <text>Text Hover</text>
+      <name>m_color_text_title</name>
+      <class>.mega-menu &amp;gt; ul.nav &amp;gt; li:hover &amp;gt; a, .bt_pagination .links .pagination span, .bt_pagination .links .pagination a:hover</class>
+      <value>3ba522</value>
+      <style>color</style>
+    </item>
+  </groups>
+</items_setting>

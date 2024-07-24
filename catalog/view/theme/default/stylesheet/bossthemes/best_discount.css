@@ -1,0 +1,120 @@
+/* date time */
+.remain-time {
+    display:block;
+	width:100%;
+	overflow:hidden;
+	margin-bottom:3px;
+}
+.remain-time div {
+    display:inline-block;
+    line-height: 14px;
+    min-width: 24px;
+    text-align: center;
+	margin-bottom:10px;	
+}
+.remain-time div.sep {
+    min-width: 7px;
+    padding-top: 5px;
+    text-align: center;
+	font-weight:800;
+}
+.list-product div.item{
+	overflow: hidden;
+}
+.list-product div.item + div.item{
+	border-top:1px solid #e5e5e5;
+	padding-top:20px;
+}
+.list-product .money-save, .list-product .percent-save  {
+	font-size: 12px;
+	color: #555;
+	font-weight: 700;
+}
+/* button product detail */
+#tday,#thour,#tmin,#tsec{
+	border:1px solid #bebebe;
+	margin-top:2px;
+	display:inline-block;
+	height:35px;
+	background-image:url(../../image/bg_line.jpg);
+	background-repeat:repeat-x;
+	font-family: 'Open Sans', sans-serif;
+	font-size:16px;
+	font-weight:600;
+	padding:5px 15px 0;
+	margin-bottom:9px;
+	text-align:center;
+	float:none;
+}
+#product #tday,#product #thour,#product #tmin,#product #tsec{font-size:16px; padding:6px 10px 0;}
+#product #tday .ttext,#product #thour .ttext,#product #tmin .ttext,#product #tsec .ttext{font-size:12px; }
+#countsp{margin:10px 0 20px}
+.list-product .right .price{
+	display:block;
+	font-size:16px;
+	text-align:center;
+	margin-bottom: 15px;
+}
+.list-product .right .price .price-old{
+	margin-right:11px;
+}
+.list-product .right .price .percent-save,.list-product .right .price .money-save{
+	display:none;
+}
+.list-product .right .cart{
+	display:block;
+	text-align:center;
+	margin-bottom:2px;
+}
+.list-product .right .rating{display:none}
+.list-product .right{
+	overflow:hidden;
+}
+.list-product .right .cart .button{
+	display:none;
+}
+
+.remain-time span{
+	font-family: 'Open Sans', sans-serif;
+	font-size:12px;
+	text-transform:lowercase;
+}
+.remain-time .number{
+	overflow:hidden;
+	border:1px solid #bebebe;
+	margin-top:2px;
+	display:block;
+	height:35px;
+	background-image:url(../../image/bg_line.jpg);
+	background-repeat:repeat-x;
+	font-family: 'Open Sans', sans-serif;
+	font-size:14px;
+	font-weight:700;
+	padding-top:9px;
+	letter-spacing:4px;
+	width:50px;
+	margin-bottom:9px;
+	text-align:center;
+	float:none;
+	padding-left:5px
+	
+}
+.remain-time .number.date{
+	color:#0072ff;
+}
+.list-product .right .status {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 14px;
+	font-family: 'Open Sans', sans-serif;
+	display:block;
+	color:#000000;
+}
+.status .small{
+	font-size: 11px;
+	font-weight: normal;
+	color: #787878;
+}
+.list-product .right .name{display:none}
+.list-product .right .qty{display:none}

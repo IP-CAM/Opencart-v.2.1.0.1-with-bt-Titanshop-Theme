@@ -1,0 +1,64 @@
+{{ header }} 
+<div class="container" id="container">
+  <ul class="breadcrumb qc-breadcrumb">
+    {% for breadcrumb in breadcrumbs %} 
+    <li><a href="{{ breadcrumb.href }} ">{{ breadcrumb.text }} </a></li>
+    {% endfor %} 
+  </ul>
+  {% if error_warning %} 
+  <div class="alert alert-danger"><i class="fa fa-exclamation-circle"></i> {{ error_warning }} 
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+  </div>
+  {% endif %} 
+  <div class="row">{{ column_left }} 
+    {% if column_left  and  column_right %} 
+    {% set class = 'col-sm-6' %}
+    {% elseif  column_left  or  column_right %} 
+    {% set class = 'col-sm-9' %}
+     {% else %}   
+    {% set class = 'col-sm-12' %}
+      {% endif %}
+    <div id="content" class="{{ class }} ">{{ content_top }} 
+   ادخل بيانات الدفع و العناوين الخاصة بك لتستطيع الحصول على منتجات شقبا  <img src="image/right_arrow.gif">
+<!-- Quick Checkout v4.0 by Dreamvention.com checkout/quickcheckout -->
+  {{ d_quickcheckout }} 
+
+      {{ content_bottom }} </div>
+    {{ column_right }} </div>
+</div>
+<script>
+$(document).ready(function() {
+$("#payment_method").hide();
+$("#shipping_method").hide();
+$("#carousel0").hide();
+$("#payment_view > .buttons > .pull-right").hide();
+payment=$("#payment_address").parent();
+pere=payment.parent();
+pere.append(payment);
+$("#shipping_address").hide();
+})
+/*$(document).ready(function() {
+//$("#payment_address_fax_input").attr("style", "display:none")
+//$("#payment_address_company_input").attr("style", "display:none")
+//$("#payment_address_customer_group_id_input").attr("style", "display:none")
+//$("#payment_address_email_confirm").text("#payment_address_email".text());
+//$("#payment_address_email_confirm").val("#payment_address_email".val());
+$("#login_view > .login-btn-group > .btn-group-justified > .btn-group > .btn").eq(1).click(function(){
+  alert(456)
+})
+$("#login_view > .login-btn-group > .btn-group-justified > .btn-group > .btn").eq(0).click(function(){
+  alert(789)
+})
+})*/
+//$("#loginview > .login-btn-group > .btn-group-justified > .btn-group > .btn").eq(2).click(function(){
+  //alert(123)
+  //$(this).attr("style", "display:none");
+//});
+/*$(document).ready(function() {
+$("#login_view > .login-btn-group > .btn-group-justified > .btn-group > .btn").eq(0).click(function(){
+$("#payment_address_email").text("#mmmmmmmm@gmail.com")
+$("#payment_address_email_input").attr("style", "display:none")
+})
+})*/
+</script>
+{{ footer }} 
